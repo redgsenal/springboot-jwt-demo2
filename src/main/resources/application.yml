@@ -16,6 +16,10 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
     database: mysql
     database-platform: org.hibernate.dialect.MySQLDialect
+  security:
+    user:
+      name: admin
+      password: adminadmin
 logging:
   level:
     root: debug
